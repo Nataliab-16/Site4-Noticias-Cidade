@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+body {
+    background:  url(Imagens/fundo.png) repeat-x top left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+/*header*/ 
+
+header {
+    margin: 0 auto;
+    width: 900px;
+    height: 180px;
+    background: url(Imagens/detalhe-topo.png) no-repeat top right;
+}
+
+h1 {
+    display: inline;
+
+}
+#logo {
+    float: left;
+    padding: 20px;
+}
+
+/*UL Header*/
+li#atual { 
+    background: rgb(255, 0, 55);
+
+}
+ul .ul-header {
+    float: left;
+    background: rgb(179, 0, 39);
+    margin: 5px 0px;
+    padding: 15px 20px;
+}
+li.ul-header>a:hover {
+    color: rgb(133, 0, 29);
+    text-decoration: none;
+}
+li.ul-header>a {
+    color: white;
+    text-decoration: none;
+}
+#ul-menu {
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+}
+ li.ul-header:hover {
+    background: rgb(255, 0, 55);
+
+}
+
+/*Conteudo-Geral*/
+
+#content {
+    margin: 80px auto;
+}
+
+
+
+#principal-content {
+    float: right
+}
+
+#sec_content {
+    width: 160px;
+    float: left;
+    background: url(Imagens/fundo-caixa.png);
+    padding: 10px;
+}
+
+/*Conteudo-principal*/
+
+article {
+    padding: 10px;
+    width: 300px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    background: url(Imagens/fundo-caixa.png);
+}
+article.left {
+    float: left;
+
+}
+
+article.right {
+    float: right;
+    
+
+}
+article.both {
+    clear: both;
+}
+
+img.imgcontent {
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+.divimg {
+    width: 300px;
+}
+
+
+h3 {
+    display: inline-block;
+    width: 100%;
+    background: rgb(40, 40, 92);
+    color: white;
+    padding: 2px 0;
+    text-indent: 6px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*Conteudo-news*/
+#news {
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    float: left;
+    background: url(Imagens/fundo-caixa.png);
+    
+}
+
+.label {
+    display: block;
+}
+
+#input-news {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(199, 199, 199);
+    border: none;
+    margin: 5px 0;
+}
+.button {
+    color: white;
+    background: rgb(179, 0, 39);
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/*Conteudo-Entrevistas*/
+
+#ul-entrevistas {
+    background: white;
+    width: 160px;
+}
+
+#ul-entrevistas a {
+    text-decoration: none;
+    color: black;
+    
+}
+#ul-entrevistas li:hover {
+    text-indent: 13px;
+    background: url(Imagens/marcador.png) no-repeat left ;
+    
+}
+#ul-entrevistas a:hover {
+
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(146, 146, 146);
+    
+    
+}
+
+#ul-entrevistas li {
+    padding: 10px 5px;
+    width: 150px;
+
+}
